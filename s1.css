@@ -1,0 +1,150 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+.navbar{
+    height: 6em;
+    width: 100%;
+    background-color:#001f54;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    
+}
+
+.logo{
+    height: 5rem;
+    width: 10rem;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    margin-left:1rem;
+}
+
+.navicon{
+    color:white;
+}
+
+.options{
+    margin-right:1%;
+}
+.a1{
+    text-decoration: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+
+.a2{
+    text-decoration: none;
+    color:#001f54;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    
+}
+
+.b1{
+    border: 2px solid white;
+    padding:10px;
+    border-radius: 10px;
+    margin-right:1em;
+    cursor: pointer;
+}
+
+.b2{
+    border: 2px solid transparent;
+    background-color: white;
+    text-decoration:none;
+    color: #001f54;
+    padding:10px;
+    border-radius: 10px;
+    margin-right:1em;
+    cursor: pointer;
+}
+
+.backimg{
+    margin-top:0px;
+    height:50em;
+    width:100%;
+    display:flex;
+    align-items: center;
+    background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.9)),url(e1.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+
+.t1{
+    
+    font-size: 6em;
+    color: white;
+    margin-left:28%;
+    
+    
+    
+}
+.t1>img {
+
+    height:5rem;
+    width:fit-content;
+    background-position:center;
+    background-size:cover ;
+
+}
+.t2{
+    font-size: 1.5rem;
+    color: white;
+    margin-left:2rem;
+    margin-right:1rem;
+    
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-shrink:1;
+}
+
+.footer{
+    background-color: black;
+    height:100px;
+    width:100%;
+    color:white;
+}
+
+.t6{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    font-size: 50px;
+    margin-left:38%;
+    margin-top:60%;
+    margin-bottom:-100px;
+}
+
+.j1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5%;
+
+}
+
+.j>a{
+    margin-left:1%;
+    margin-bottom:10%;
+}
+
+.j{
+    
+    background-color: black;
+    padding-top:8%;
+}
+
+
+
+
+

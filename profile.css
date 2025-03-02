@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar{
+    height: 6em;
+    width: 100%;
+    background-color:#001f54;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    
+}
+
+.logo{
+    height: 5rem;
+    width: 10rem;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    margin-left:1rem;
+}
+
+.il{
+   
+    margin-left:1rem;
+    margin-right:1rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.i1{
+    margin-right:3rem;
+    
+}
+
+.t6{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    font-size: 50px;
+    margin-left:38%;
+    margin-top:60%;
+    margin-bottom:-100px;
+}
+
+.j1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1%;
+
+}
+
+.j>a{
+    margin-left:1%;
+    margin-bottom:10%;
+}
+
+.j{
+    
+    background-color: black;
+    padding-top:25%;
+}
+
+.main{
+    height:40rem;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0),rgba(1,1,1,1)),url(b2.png);
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    margin-top:60%;
+    height:41rem;
+    width:40rem;
+    background-color: rgba(255,255,255,1);
+    z-index: 0;
+    border:1px solid transparent;
+    border-radius:100px;
+}
+
+.r1{
+   
+    margin-left:35%;
+    margin-top:-50px;
+    height:10rem;
+    width:10rem;
+    background-image: url(avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    border:1px solid transparent;
+    border-radius: 50%;
+}
+
+.t1{
+    color:black;
+    font-size: 60px;
+    margin-top:2%;
+    margin-left:25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.t4{
+    color:black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:34%;
+}
+
+.t2{
+    color:black;
+    font-weight: bold;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.t3{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    margin-left:5%;
+}
